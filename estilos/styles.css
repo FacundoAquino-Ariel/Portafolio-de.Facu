@@ -17,7 +17,6 @@
 
 .encabezado{
     padding: 2% 0% 0% 15%;
-
 }
 
 .encabezado-menu{
@@ -82,7 +81,10 @@ body{
 }
 
 .formato-enlace{
-    width: 378px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
     text-align: center;
     padding: 16px 0;
     border-radius: 8px;
@@ -91,15 +93,15 @@ body{
     font-weight: 600;
     text-decoration: none;
     color: var(--color-secundario);
-    border:2px solid var(--color-terciario);;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    border:2px solid var(--color-terciario);
 }
 
 .formato-enlace:hover{
     cursor: pointer;
     background-color: var(--color-hover);
+}
+.presentacion_imagen{
+    width: 50%;
 }
 
 .enlaces-subtitulo{
@@ -136,7 +138,7 @@ li{
     }
 
     .encabezado-menu{
-        justify-content: center;
+        justify-content:center;
     }
 
     .contenido{
@@ -144,5 +146,3 @@ li{
     }
 
 }
-
-
